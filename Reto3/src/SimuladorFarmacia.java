@@ -11,7 +11,7 @@ public class SimuladorFarmacia {
         double precioUnitario = sc.nextDouble();
 
         System.out.println("Cantidad de piezas: ");
-        int piezas = sc.nextInt();
+        var piezas = sc.nextInt();
 
         //formula para precio sin descuento
         double totalSinDescuento = piezas * precioUnitario;
